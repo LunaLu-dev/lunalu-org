@@ -1,0 +1,22 @@
+#main-pic {
+  cursor: pointer;
+}
+
+.container {
+  text-align: center;
+}
+
+
+/*Mobile View*/
+@media (max-width: 600px) {
+  .container {
+    width: 90vw !important;
+  }
+}
+/*Desktop View*/
+@media (min-width: 601px) {
+  .container {
+    width: 50vw !important;
+    margin: auto !important;
+  }
+}
