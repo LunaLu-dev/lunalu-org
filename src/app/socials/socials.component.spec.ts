@@ -17,6 +17,7 @@ describe('SocialsComponent', () => {
     fixture.detectChanges();
   });
 
+  // @ts-ignore
   it('should create', () => {
     expect(component).toBeTruthy();
   });

@@ -10,6 +10,7 @@ import {NgOptimizedImage} from '@angular/common';
   styleUrl: './pronouns.component.css'
 })
 export class PronounsComponent {
-  time:string = "TEST";
-  age:number = 10;
+  time:string = "00:00:00";
+  age:number = 0;
+  protected readonly window = window;
 }
