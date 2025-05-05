@@ -19,7 +19,7 @@ export class PronounsComponent {
   ngOnInit(): void {
     this.intervalId = setInterval(() => {
       this.today = new Date();
-      this.time = this.today.getHours() + ":" + this.today.getMinutes() + ":" + this.today.getSeconds();
+      this.time = this.today.toLocaleTimeString("en-US", {hour: "2-digit", minute: "2-digit", second: "2-digit", timeZone: "Europe/Stockholm"});
     }, 1000);
   }
 
