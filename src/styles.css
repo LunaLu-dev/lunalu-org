@@ -51,7 +51,7 @@ body{
 }
 
 @media (max-width: 600px) {
-  .socials {
+  .buttons {
     width: 90vw !important;
     box-shadow: none !important;
   }
