@@ -8,3 +8,45 @@
 body{
   background-image: url('/bg.webp');
 }
+
+@keyframes PressIn {
+  0% {
+    transform: translate3d(0, 0, 0);
+    box-shadow: 5px 5px 0 #000;
+  }
+  100% {
+    transform: translate3d(5px, 5px, 0);
+    box-shadow: 0 0 0 #000;
+  }
+}
+
+@keyframes PressOut {
+  0% {
+    transform: translate3d(5px, 5px, 0);
+    box-shadow: 0 0 0 #000;
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+    box-shadow: 5px 5px 0 #000;
+  }
+}
+
+@media (max-width: 600px) {
+  .socials {
+    width: 90vw !important;
+    box-shadow: none !important;
+  }
+}
+
+/*Desktop View*/
+@media (min-width: 601px) {
+  .buttons {
+    animation: PressOut 0.5s;
+  }
+
+  .buttons:hover {
+    animation: PressIn 0.5s;
+    transform: translate3d(5px, 5px, 0);
+    box-shadow: 0 0 0 #000;
+  }
+}
