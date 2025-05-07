@@ -9,15 +9,11 @@
 
 /*Mobile View*/
 @media (max-width: 600px) {
-  .container {
-    width: 90vw !important;
-  }
   #main-pic {
     width: 200px;
     height: 200px;
   }
 }
-
 
 /*Desktop View*/
 @media (min-width: 601px) {
