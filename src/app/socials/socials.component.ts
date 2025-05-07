@@ -10,9 +10,9 @@ import {NgOptimizedImage} from '@angular/common';
   styleUrl: './socials.component.css'
 })
 export class SocialsComponent {
-
+  // Old Link: https://only-fans.uk/LunaLu
   links: string[] = [
-    "https://only-fans.uk/LunaLu",
+    "https://only-fans.uk/lunaluplayz",
     "https://discord.com/users/1098996480011944017",
     "https://www.twitch.tv/lunaluplayz",
     "https://vrchat.com/home/user/usr_19d6e456-23a6-41d4-8d0a-cf0ddd305e47",
