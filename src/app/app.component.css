@@ -1,5 +1,6 @@
 #main-pic {
   cursor: pointer;
+  border-radius: 100%;
 }
 
 .container {
@@ -11,11 +12,21 @@
   .container {
     width: 90vw !important;
   }
+  #main-pic {
+    width: 200px;
+    height: 200px;
+  }
 }
+
+
 /*Desktop View*/
 @media (min-width: 601px) {
   .container {
     width: 50vw !important;
     margin: auto !important;
+  }
+  #main-pic {
+    width: 300px;
+    height: 300px;
   }
 }
