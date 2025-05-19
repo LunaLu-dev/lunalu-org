@@ -87,7 +87,8 @@ export class SocialsComponent {
 
     analytics.track('SocialLinkClick', {
       item: this.links[index].name,
-      url: this.links[index].url
+      url: this.links[index].url,
+      src: "luna.org"
     })
     window.open(this.links[index].url, '_blank');
   }
