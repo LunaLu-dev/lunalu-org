@@ -27,11 +27,11 @@ export class AppComponent implements OnInit {
 
     //Mobile View
     if (width < 600) {
-      this.imagePath = `/luna_200x200.webp`;
+      this.imagePath = `/assets/luna_200x200.webp`;
       this.imgWidth = 200;
       this.imgHeight = 200;
     } else {//Desktop View
-      this.imagePath = `/luna_300x300.webp`;
+      this.imagePath = `/assets/luna_300x300.webp`;
       this.imgWidth = 300;
       this.imgHeight = 300;
     }
