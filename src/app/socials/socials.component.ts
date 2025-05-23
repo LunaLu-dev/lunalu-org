@@ -85,7 +85,7 @@ export class SocialsComponent {
 
   linkClick(index: number) {
 
-    analytics.track('SocialLinkClick', {
+    analytics.track('social_link_click', {
       item: this.links[index].name,
       url: this.links[index].url,
       src: "lunalu.nl"
