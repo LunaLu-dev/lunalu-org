@@ -80,7 +80,6 @@ export class SocialsComponent {
 
   linkClick(index: number) {
 
-// Tracks the 'signup' goal with a callback, props and a different referrer.
     trackEvent(
       'social_link_click',
       {
@@ -92,13 +91,6 @@ export class SocialsComponent {
       }
     );
 
-    //const eventName:string = 'social_link_click_' + this.links[index].name;
-
-    // analytics.track(eventName, {
-    //   item: this.links[index].name,
-    //   url: this.links[index].url,
-    //   src: "luna.org"
-    // })
     window.open(this.links[index].url, '_blank');
   }
 
