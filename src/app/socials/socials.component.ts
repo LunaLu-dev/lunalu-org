@@ -1,16 +1,11 @@
 import {Component} from '@angular/core';
 import {NgOptimizedImage} from '@angular/common';
-import Analytics from 'analytics';
-// @ts-ignore
-import googleAnalytics from '@analytics/google-analytics'
+import Plausible from 'plausible-tracker'
 
-const analytics = Analytics({
-  app: 'lunalu.org',
-  plugins: [
-    googleAnalytics({
-      measurementIds: ['G-X5FND3X0TT']
-    })
-  ]
+
+const {trackEvent} = Plausible({
+  domain: 'lunalu.org',
+  apiHost: 'https://analytics.lunalu.org'
 })
 
 @Component({
@@ -83,15 +78,27 @@ export class SocialsComponent {
   ]
 
 
-  linkClick(index:number) {
+  linkClick(index: number) {
 
-    const eventName:string = 'social_link_click_' + this.links[index].name;
+// Tracks the 'signup' goal with a callback, props and a different referrer.
+    trackEvent(
+      'social_link_click',
+      {
+        props: {
+          item: this.links[index].name,
+          url: this.links[index].url,
+          src: "luna.org"
+        }
+      }
+    );
 
-    analytics.track(eventName, {
-      item: this.links[index].name,
-      url: this.links[index].url,
-      src: "luna.org"
-    })
+    //const eventName:string = 'social_link_click_' + this.links[index].name;
+
+    // analytics.track(eventName, {
+    //   item: this.links[index].name,
+    //   url: this.links[index].url,
+    //   src: "luna.org"
+    // })
     window.open(this.links[index].url, '_blank');
   }
 
