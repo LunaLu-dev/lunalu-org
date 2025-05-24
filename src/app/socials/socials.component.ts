@@ -1,16 +1,10 @@
 import {Component} from '@angular/core';
 import {NgOptimizedImage} from '@angular/common';
-import Analytics from 'analytics';
-// @ts-ignore
-import googleAnalytics from '@analytics/google-analytics'
+import Plausible from 'plausible-tracker'
 
-const analytics = Analytics({
-  app: 'lunalu.org',
-  plugins: [
-    googleAnalytics({
-      measurementIds: ['G-X5FND3X0TT']
-    })
-  ]
+const {trackEvent} = Plausible({
+  domain: 'lunalu.org',
+  apiHost: 'https://analytics.lunalu.org'
 })
 
 @Component({
@@ -85,11 +79,17 @@ export class SocialsComponent {
 
   linkClick(index: number) {
 
-    analytics.track('social_link_click', {
-      item: this.links[index].name,
-      url: this.links[index].url,
-      src: "lunalu.nl"
-    })
+    trackEvent(
+      'social_link_click',
+      {
+        props: {
+          item: this.links[index].name,
+          url: this.links[index].url,
+          src: "luna.nl"
+        }
+      }
+    );
+
     window.open(this.links[index].url, '_blank');
   }
 
