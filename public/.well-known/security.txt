@@ -1,0 +1,7 @@
+Contact: mailto:dev@lunalu.org
+Expires: 2025-12-31T22:59:00.000Z
+Encryption: https://www.lunalu.org/.well-known/security/ecc-public-key.asc
+Acknowledgments: https://www.lunalu.org/hall-of-fame
+Preferred-Languages: en, sv
+Canonical: https://www.lunaly.org/.well-known/security.txt
+Signature: https://www.lunaly.org/.well-known/security.txt.sig

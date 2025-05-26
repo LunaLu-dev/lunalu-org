@@ -20,7 +20,7 @@ export class SocialsComponent {
   // Old Link: https://only-fans.uk/LunaLu
   links: { name: string, url: string }[] = [
     {
-      name: 'LunaLuPlayz',
+      name: 'OnlyFans',
       url: 'https://only-fans.uk/lunaluplayz'
     },
     {
