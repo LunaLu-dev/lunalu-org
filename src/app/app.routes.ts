@@ -8,5 +8,6 @@ export const routes: Routes = [
   { path: '', component: MainMenuComponent },
   { path: 'socials', component: SocialsComponent },
   { path: 'pronouns', component: PronounsComponent },
-  { path: 'nsfw', component: NsfwComponent }
+  { path: 'nsfw', component: NsfwComponent },
+  { path: 'robots', redirectTo: '/robots.txt'}
 ];

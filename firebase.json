@@ -1,0 +1,24 @@
+{
+  "hosting": {
+    "public": "dist/lunalu-org/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "security.txt",
+        "destination": "/security.txt"
+      },
+      {
+        "source": "robots.txt",
+        "destination": "/robots.txt"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
