@@ -1,0 +1,21 @@
+Contact: mailto:dev@lunalu.org
+Expires: 2025-12-31T22:59:00.000Z
+Encryption: https://www.lunalu.org/security/ecc-public-key.asc
+Acknowledgments: https://www.lunalu.org/hall-of-fame
+Preferred-Languages: en, sv
+Canonical: https://www.lunaly.org/security.txt
+Signature: https://www.lunaly.org/security.txt.sig
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mDMEaDT4sxYJKwYBBAHaRw8BAQdAP8uRKoBtB+xD9Js/NWbRwayUfsD/93uBpDyX
++tmXAuS0GEx1bmEgTHUgPGRldkBsdW5hbHUub3JnPoiZBBMWCgBBFiEEnVFnrecE
+XUmx9yTDOsHF5B9ydnIFAmg0+LMCGwMFCQWlgG0FCwkIBwICIgIGFQoJCAsCBBYC
+AwECHgcCF4AACgkQOsHF5B9ydnLOvgD/UBe8oTyYYrh2mHQhwSh8m+k9YuIGqB93
+0EYBYc69554A/ihsuL+pK+7FjmymaogNO6sAmbC2KPOtmk3HNohH4UUGuDgEaDT4
+sxIKKwYBBAGXVQEFAQEHQE3h2sEtjdHUAGf7m9IRWB5l7/SzzefEdfUbOZdqIZlT
+AwEIB4h+BBgWCgAmFiEEnVFnrecEXUmx9yTDOsHF5B9ydnIFAmg0+LMCGwwFCQWl
+gG0ACgkQOsHF5B9ydnKqqwEA7XgdvlTSxCWgkkjuXqiTbfGZgTAHBK8etFkk2ezz
+a3AA/j7WdgQGrTM007dALy/rjf+BOBJEAgfLeUVidp2hdvgM
+=NKOI
+-----END PGP PUBLIC KEY BLOCK-----
