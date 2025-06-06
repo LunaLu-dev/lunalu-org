@@ -74,6 +74,10 @@ export class SocialsComponent {
     {
       name: 'MyAnimeList',
       url: 'https://myanimelist.net/profile/LunaLuPlayz'
+    },
+    {
+      name: 'Personality Test',
+      url: 'https://www.16personalities.com/profiles/infp-t/o/dhjxp3rqw'
     }
   ]
 
