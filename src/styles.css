@@ -5,11 +5,6 @@
   font-family: 'Poetsen One', cursive;
 }
 
-body{
-  /*noinspection CssUnknownTarget*/
-  background-image: url('/assets/background.webp');
-}
-
 .buttons {
   border-radius: 15px;
   border: 3px solid #000;
@@ -56,6 +51,10 @@ body{
     width: 90vw !important;
     box-shadow: none !important;
   }
+
+  body{
+    background-color: #d9cbe6;
+  }
 }
 
 /*Desktop View*/
@@ -68,5 +67,10 @@ body{
     animation: PressIn 0.5s;
     transform: translate3d(5px, 5px, 0);
     box-shadow: 0 0 0 #000;
+  }
+
+  body{
+    /*noinspection CssUnknownTarget*/
+    background-image: url('/assets/background.webp');
   }
 }
