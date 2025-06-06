@@ -1,6 +1,6 @@
 # LunaluOrg
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.10.
+This is my personal website for my socials and pronounce cuz like yk why not, xD
 
 ## Development server
 
