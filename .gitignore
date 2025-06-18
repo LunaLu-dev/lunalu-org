@@ -40,5 +40,6 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
-/.firebase/
-/public/cdn/hificonsult/
+
+
+/public/cdn/*
