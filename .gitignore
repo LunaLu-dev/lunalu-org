@@ -42,3 +42,4 @@ testem.log
 Thumbs.db
 
 /public/movies/*
+/public/cdn/*
