@@ -38,6 +38,10 @@ export class PronounsComponent {
     {
       name: 'Personality Test',
       url: 'https://www.16personalities.com/profiles/infp-t/o/dhjxp3rqw'
+    },
+    {
+      name: 'Spectrum',
+      url: 'https://spectrum.avris.it/AjXK'
     }
   ]
 
