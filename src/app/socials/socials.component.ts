@@ -74,6 +74,10 @@ export class SocialsComponent {
     {
       name: 'MyAnimeList',
       url: 'https://myanimelist.net/profile/LunaLuPlayz'
+    },
+    {
+      name: 'Playlist',
+      url: 'https://music.youtube.com/playlist?list=PLHcY3SoQtAiGosa2dd0OCxQA5hYx_LBri&si=asC2nua4fdT0LVWs'
     }
   ]
 

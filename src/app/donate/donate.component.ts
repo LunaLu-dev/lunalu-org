@@ -20,59 +20,19 @@ export class DonateComponent {
   links: { name: string, url: string }[] = [
     {
       name: 'PayPal',
-      url: 'https://only-fans.uk/lunaluplayz'
+      url: 'https://paypal.me/lunalu04'
     },
     {
-      name: 'Discord',
-      url: 'https://discord.com/users/1098996480011944017'
+      name: 'Revolut',
+      url: 'https://pay.lunalu.org'
     },
     {
-      name: 'Twitch',
-      url: 'https://www.twitch.tv/lunaluplayz'
-    },
-    {
-      name: 'VRChat',
-      url: 'https://vrchat.com/home/user/usr_19d6e456-23a6-41d4-8d0a-cf0ddd305e47'
-    },
-    {
-      name: 'Reddit',
-      url: 'https://www.reddit.com/user/LunaLu_04'
-    },
-    {
-      name: 'GitHub',
-      url: 'https://github.com/LunaLu-dev'
-    },
-    {
-      name: 'YouTube',
-      url: 'https://www.youtube.com/@Luna_Lu1'
-    },
-    {
-      name: 'X',
-      url: 'https://x.com/LunaLuplayz'
-    },
-    {
-      name: 'Planet Minecraft',
-      url: 'https://www.planetminecraft.com/member/_luna04_/'
-    },
-    {
-      name: 'Pinterest',
-      url: 'https://www.pinterest.co.uk/lunaplayz04/'
+      name: 'Swish',
+      url: 'https://app.swish.nu/1/p/sw/?sw=0723150770&msg=&edit=msg&src=qr'
     },
     {
       name: 'Wishlist',
-      url: 'https://wishlist.lunalu.org/'
-    },
-    {
-      name: 'Steam',
-      url: 'https://steamcommunity.com/id/_LunaLu_/'
-    },
-    {
-      name: 'Spotify',
-      url: 'https://open.spotify.com/user/31jo3k6nxhloleusg3tidy7ctimq?si=93424dcbf62e47ea'
-    },
-    {
-      name: 'MyAnimeList',
-      url: 'https://myanimelist.net/profile/LunaLuPlayz'
+      url: 'https://wishlist.lunalu.org'
     }
   ]
 
