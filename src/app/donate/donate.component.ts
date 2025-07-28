@@ -17,13 +17,9 @@ const {trackEvent} = Plausible({
   styleUrl: './donate.component.css'
 })
 export class DonateComponent {
-
-}
-export class SocialsComponent {
-  // Old Link: https://only-fans.uk/LunaLu
   links: { name: string, url: string }[] = [
     {
-      name: 'OnlyFans',
+      name: 'PayPal',
       url: 'https://only-fans.uk/lunaluplayz'
     },
     {
@@ -79,6 +75,7 @@ export class SocialsComponent {
       url: 'https://myanimelist.net/profile/LunaLuPlayz'
     }
   ]
+
 
   linkClick(index: number) {
 
