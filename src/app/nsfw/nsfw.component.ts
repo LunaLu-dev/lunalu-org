@@ -20,12 +20,16 @@ const {trackEvent} = Plausible({
 export class NsfwComponent {
   links: { name: string, url: string }[] = [
     {
+      name: 'Real OnlyFans',
+      url: 'https://onlyfans.com/lunalunsfw'
+    },
+    {
       name: 'BDSM',
       url: 'https://www.bdsmtest.org/r/jgeqMMPW'
     },
     {
       name: 'NSFW Wishlist',
-      url: 'https://wishlist.lunalu.org/category/?category=nsfw'
+      url: 'https://wishlist.lunalu.org/category/nsfw'
     }
   ]
 
