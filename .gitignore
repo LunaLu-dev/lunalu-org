@@ -43,3 +43,8 @@ Thumbs.db
 
 /public/movies/*
 /public/cdn/*
+
+#firebase
+.firebaserc
+.firebase
+firebase.json
