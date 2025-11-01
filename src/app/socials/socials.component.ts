@@ -76,8 +76,12 @@ export class SocialsComponent {
       url: 'https://myanimelist.net/profile/LunaLuPlayz'
     },
     {
+      name: 'BlueSky',
+      url: 'https://bsky.app/profile/lunaluplayz.bsky.social'
+    },
+    {
       name: 'Playlist',
-      url: 'https://music.youtube.com/playlist?list=PLHcY3SoQtAiGosa2dd0OCxQA5hYx_LBri&si=asC2nua4fdT0LVWs'
+      url: 'https://open.spotify.com/playlist/6upOg1HCLpJyKXjAfoc76k?si=218a655ddb704196'
     }
   ]
 
