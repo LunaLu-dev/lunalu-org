@@ -18,10 +18,11 @@ const {trackEvent} = Plausible({
 })
 export class SocialsComponent {
   // Old Link: https://only-fans.uk/LunaLu
+  // New Old Link: https://only-fans.uk/lunaluplayz
   links: { name: string, url: string }[] = [
     {
       name: 'OnlyFans',
-      url: 'https://only-fans.uk/lunaluplayz'
+      url: 'https://youtu.be/xvFZjo5PgG0?si=7749cmjGdNteJDvb'
     },
     {
       name: 'Discord',
