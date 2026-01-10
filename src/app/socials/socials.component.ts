@@ -22,7 +22,7 @@ export class SocialsComponent {
   links: { name: string, url: string }[] = [
     {
       name: 'OnlyFans',
-      url: 'https://youtu.be/xvFZjo5PgG0?si=7749cmjGdNteJDvb'
+      url: '/assets/rick.mp4'
     },
     {
       name: 'Discord',
