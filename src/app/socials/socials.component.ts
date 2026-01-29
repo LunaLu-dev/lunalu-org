@@ -22,7 +22,7 @@ export class SocialsComponent {
   links: { name: string, url: string }[] = [
     {
       name: 'OnlyFans',
-      url: 'https://cdn.caponis.gay/rick.mp4'
+      url: 'https://cdn.gimmeboobs.com/rick.mp4'
     },
     {
       name: 'Discord',
