@@ -83,6 +83,10 @@ export class SocialsComponent {
     {
       name: 'Playlist',
       url: 'https://open.spotify.com/playlist/6upOg1HCLpJyKXjAfoc76k?si=218a655ddb704196'
+    },
+    {
+      name: 'Fluxer',
+      url: 'https://web.fluxer.app/channels/@me'
     }
   ]
 
@@ -99,6 +103,26 @@ export class SocialsComponent {
         }
       }
     );
+
+    window.open(this.links[index].url, '_blank');
+  }
+
+  linkClick_fluxer(index: number) {
+
+    trackEvent(
+      'social_link_click',
+      {
+        props: {
+          item: this.links[index].name,
+          url: this.links[index].url,
+          src: "luna.org"
+        }
+      }
+    );
+
+    navigator.clipboard.writeText("Luna_Lu#7009");
+
+    alert("Copied to clipboard");
 
     window.open(this.links[index].url, '_blank');
   }
