@@ -42,6 +42,10 @@ export class PronounsComponent {
     {
       name: 'Spectrum',
       url: 'https://spectrum.avris.it/AjXK'
+    },
+    {
+      name: 'Attraction Layer Cake',
+      url: 'https://cake.avris.it/pB5'
     }
   ]
 
