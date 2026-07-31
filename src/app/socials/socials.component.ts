@@ -82,7 +82,7 @@ export class SocialsComponent {
     },
     {
       name: 'Playlist',
-      url: 'https://open.spotify.com/playlist/6upOg1HCLpJyKXjAfoc76k?si=218a655ddb704196'
+      url: 'https://music.apple.com/se/playlist/lunas-list/pl.u-leyl0k8SMB1L32z'
     },
     {
       name: 'Fluxer',
